@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>影视分类 - 欧美电影</title>
+  <meta name="description" content="按类型、地区和题材浏览影视内容，快速进入电影、剧集、动画、欧美、日韩等分类频道。">
+  <meta name="keywords" content="欧美电影,免费观看,高清中字,在线播放,不花钱,秒播放,欧美大片,免费视频,全集播放,影视分类,电影分类">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="欧美电影">
+        <span class="brand-mark">▶</span>
+        <span class="brand-text">
+          <strong>欧美电影</strong>
+          <em>高清中字 · 秒播片库</em>
+        </span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./catalog.html">片库</a>
+        <a class="nav-link active" href="./categories.html">分类</a>
+        <a class="nav-link" href="./rank.html">排行榜</a>
+      </nav>
+      <form class="header-search" action="./catalog.html" method="get">
+        <input type="search" name="q" placeholder="搜索片名、类型、地区" aria-label="搜索影片">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="menu-toggle" type="button" aria-label="展开导航" data-menu-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" data-mobile-menu aria-label="移动导航">
+      <a class="mobile-link" href="./index.html">首页</a>
+      <a class="mobile-link" href="./catalog.html">片库</a>
+      <a class="mobile-link active" href="./categories.html">分类</a>
+      <a class="mobile-link" href="./rank.html">排行榜</a>
+    </nav>
+  </header>
+  <section class="page-hero">
+    <div class="container">
+      <span>欧美电影</span>
+      <h1>影视分类</h1>
+      <p>按类型、地区与题材发现更多内容，每个频道都可直接进入影片详情。</p>
+    </div>
+  </section>
+  <main class="content-section white-section page-main">
+    <div class="container">
+    <div class="filter-panel">
+      <label class="filter-label" for="page-filter">快速筛选</label>
+      <input id="page-filter" class="filter-input" type="search" placeholder="搜索分类名称、题材或地区" data-filter-input>
+    </div>
+    <div class="category-tile-grid" data-filter-list>
+      <a class="category-tile" href="./films.html" data-filter-card data-search="电影专区 汇集不同年代与地区的电影作品，覆盖动作、爱情、悬疑、科幻、喜剧等热门类型。 与德莱尼夫妇约会、异种2011、恶胎粤语">
+        <img src="./2.jpg" alt="电影专区" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>类型</em>
+          <strong>电影专区</strong>
+          <small>汇集不同年代与地区的电影作品，覆盖动作、爱情、悬疑、科幻、喜剧等热门类型。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./series.html" data-filter-card data-search="剧集专区 精选多地区长短剧集，适合连续追看，题材丰富且内容完整。 红楼梦1987、同志亦凡人第四季、三生三界情人劫">
+        <img src="./1.jpg" alt="剧集专区" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>类型</em>
+          <strong>剧集专区</strong>
+          <small>精选多地区长短剧集，适合连续追看，题材丰富且内容完整。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./animation.html" data-filter-card data-search="动画动漫 收录动画电影、动漫剧集与适合全年龄观看的幻想故事。 虚构推理第二季、飞鼠洛基冒险记、马路无理学园">
+        <img src="./24.jpg" alt="动画动漫" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>类型</em>
+          <strong>动画动漫</strong>
+          <small>收录动画电影、动漫剧集与适合全年龄观看的幻想故事。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./documentary.html" data-filter-card data-search="纪录片库 从人物、历史、社会到自然题材，呈现真实影像的力量。 毁灭的种子、美国枪枝的秘密、乔丹日志">
+        <img src="./13.jpg" alt="纪录片库" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>类型</em>
+          <strong>纪录片库</strong>
+          <small>从人物、历史、社会到自然题材，呈现真实影像的力量。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./variety.html" data-filter-card data-search="综艺精选 轻松娱乐、真人秀、舞台竞演等综艺内容集中浏览。 一起听团吧、更上一层楼、中餐厅第三季">
+        <img src="./9.jpg" alt="综艺精选" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>类型</em>
+          <strong>综艺精选</strong>
+          <small>轻松娱乐、真人秀、舞台竞演等综艺内容集中浏览。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./special.html" data-filter-card data-search="特色片库 整合不同形态的影像作品，带来更丰富的观看选择。 动态漫画·我在末世捡属性、后翼弃兵、南国争春">
+        <img src="./70.jpg" alt="特色片库" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>类型</em>
+          <strong>特色片库</strong>
+          <small>整合不同形态的影像作品，带来更丰富的观看选择。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./europe-america.html" data-filter-card data-search="欧美片库 聚合美国、英国、法国、德国等欧美地区的热门电影与剧集。 与德莱尼夫妇约会、异种2011、浴血大逃亡">
+        <img src="./2.jpg" alt="欧美片库" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>地区</em>
+          <strong>欧美片库</strong>
+          <small>聚合美国、英国、法国、德国等欧美地区的热门电影与剧集。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./mainland-china.html" data-filter-card data-search="内地影视 精选中国大陆地区影视作品，涵盖经典剧集、热门电影与现实题材。 红楼梦1987、口袋里的拳头、山中传奇">
+        <img src="./1.jpg" alt="内地影视" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>地区</em>
+          <strong>内地影视</strong>
+          <small>精选中国大陆地区影视作品，涵盖经典剧集、热门电影与现实题材。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./hongkong-taiwan.html" data-filter-card data-search="港台专区 收录香港、台湾地区的电影与剧集，保留浓郁地域风格。 恶胎粤语、油麻菜籽、不死情谜粤语">
+        <img src="./4.jpg" alt="港台专区" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>地区</em>
+          <strong>港台专区</strong>
+          <small>收录香港、台湾地区的电影与剧集，保留浓郁地域风格。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./japan-korea.html" data-filter-card data-search="日韩精选 日本与韩国影视作品集中展示，涵盖悬疑、爱情、犯罪、家庭等题材。 虚构推理第二季、坏小孩契约、马路无理学园">
+        <img src="./24.jpg" alt="日韩精选" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>地区</em>
+          <strong>日韩精选</strong>
+          <small>日本与韩国影视作品集中展示，涵盖悬疑、爱情、犯罪、家庭等题材。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./world-cinema.html" data-filter-card data-search="全球影像 集合其他地区的优质影片，拓展更多观看选择。 为爱所困2024、我死在去年夏天、贫民百万富翁">
+        <img src="./30.jpg" alt="全球影像" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>地区</em>
+          <strong>全球影像</strong>
+          <small>集合其他地区的优质影片，拓展更多观看选择。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./genre-drama.html" data-filter-card data-search="剧情好片 剧情好片频道精选相关题材影片，适合按兴趣快速浏览。 红楼梦1987、口袋里的拳头、油麻菜籽">
+        <img src="./1.jpg" alt="剧情好片" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>题材</em>
+          <strong>剧情好片</strong>
+          <small>剧情好片频道精选相关题材影片，适合按兴趣快速浏览。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./genre-action.html" data-filter-card data-search="动作冒险 动作冒险频道精选相关题材影片，适合按兴趣快速浏览。 异种2011、浴血大逃亡、毁灭的种子">
+        <img src="./3.jpg" alt="动作冒险" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>题材</em>
+          <strong>动作冒险</strong>
+          <small>动作冒险频道精选相关题材影片，适合按兴趣快速浏览。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./genre-suspense.html" data-filter-card data-search="悬疑推理 悬疑推理频道精选相关题材影片，适合按兴趣快速浏览。 与德莱尼夫妇约会、杜兰餐馆:黑色传奇、无名圣人">
+        <img src="./2.jpg" alt="悬疑推理" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>题材</em>
+          <strong>悬疑推理</strong>
+          <small>悬疑推理频道精选相关题材影片，适合按兴趣快速浏览。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./genre-horror.html" data-filter-card data-search="恐怖惊悚 恐怖惊悚频道精选相关题材影片，适合按兴趣快速浏览。 与德莱尼夫妇约会、异种2011、恶胎粤语">
+        <img src="./2.jpg" alt="恐怖惊悚" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>题材</em>
+          <strong>恐怖惊悚</strong>
+          <small>恐怖惊悚频道精选相关题材影片，适合按兴趣快速浏览。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./genre-romance.html" data-filter-card data-search="爱情佳作 爱情佳作频道精选相关题材影片，适合按兴趣快速浏览。 红楼梦1987、加州圣诞恋曲:绚烂都会、同志亦凡人第四季">
+        <img src="./1.jpg" alt="爱情佳作" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>题材</em>
+          <strong>爱情佳作</strong>
+          <small>爱情佳作频道精选相关题材影片，适合按兴趣快速浏览。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./genre-comedy.html" data-filter-card data-search="喜剧轻松 喜剧轻松频道精选相关题材影片，适合按兴趣快速浏览。 加州圣诞恋曲:绚烂都会、瑞典人在美国、男盗女很贼">
+        <img src="./8.jpg" alt="喜剧轻松" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>题材</em>
+          <strong>喜剧轻松</strong>
+          <small>喜剧轻松频道精选相关题材影片，适合按兴趣快速浏览。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./genre-crime.html" data-filter-card data-search="犯罪警匪 犯罪警匪频道精选相关题材影片，适合按兴趣快速浏览。 口袋里的拳头、杜兰餐馆:黑色传奇、男盗女很贼">
+        <img src="./5.jpg" alt="犯罪警匪" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>题材</em>
+          <strong>犯罪警匪</strong>
+          <small>犯罪警匪频道精选相关题材影片，适合按兴趣快速浏览。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./genre-scifi.html" data-filter-card data-search="科幻奇幻 科幻奇幻频道精选相关题材影片，适合按兴趣快速浏览。 异种2011、山中传奇、状态更新">
+        <img src="./3.jpg" alt="科幻奇幻" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>题材</em>
+          <strong>科幻奇幻</strong>
+          <small>科幻奇幻频道精选相关题材影片，适合按兴趣快速浏览。</small>
+        </span>
+      </a>
+      <a class="category-tile" href="./genre-history.html" data-filter-card data-search="历史古装 历史古装频道精选相关题材影片，适合按兴趣快速浏览。 红楼梦1987、山中传奇、毁灭的种子">
+        <img src="./1.jpg" alt="历史古装" loading="lazy">
+        <span class="category-tile-shade"></span>
+        <span class="category-tile-copy">
+          <em>题材</em>
+          <strong>历史古装</strong>
+          <small>历史古装频道精选相关题材影片，适合按兴趣快速浏览。</small>
+        </span>
+      </a>
+      <p class="empty-result" data-empty-result>没有匹配的分类</p>
+    </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a class="brand footer-logo" href="./index.html">
+          <span class="brand-mark">▶</span>
+          <span class="brand-text">
+            <strong>欧美电影</strong>
+            <em>高清中字 · 秒播片库</em>
+          </span>
+        </a>
+        <p>免费欧美电影全集在线播放，高清中字不花钱秒播放。提供最新最全的欧美电影资源，支持多种格式播放，完美兼容移动端和PC端。</p>
+      </div>
+      <div class="footer-block">
+        <h2>热门入口</h2>
+        <ul>
+          <li><a href="./catalog.html">全部片库</a></li>
+          <li><a href="./rank.html">人气排行榜</a></li>
+          <li><a href="./europe-america.html">欧美片库</a></li>
+          <li><a href="./films.html">电影专区</a></li>
+        </ul>
+      </div>
+      <div class="footer-block">
+        <h2>频道分类</h2>
+        <ul>
+          <li><a href="./films.html">电影专区</a></li>
+          <li><a href="./series.html">剧集专区</a></li>
+          <li><a href="./animation.html">动画动漫</a></li>
+          <li><a href="./documentary.html">纪录片库</a></li>
+          <li><a href="./variety.html">综艺精选</a></li>
+          <li><a href="./special.html">特色片库</a></li>
+          <li><a href="./europe-america.html">欧美片库</a></li>
+          <li><a href="./mainland-china.html">内地影视</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 欧美电影 · 高清影视内容导航</div>
+  </footer>
+
+  <script src="./assets/main.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
